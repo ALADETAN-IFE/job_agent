@@ -149,7 +149,7 @@ export default function ProfilePage() {
       }
 
       const saved = await res.json();
-      setProfile(emptyProfile);
+      setProfile(saved);
       setContactErrors({});
       setFlash({ type: "success", msg: "Profile saved successfully!" });
     } catch (err: unknown) {
@@ -164,14 +164,14 @@ export default function ProfilePage() {
 
   if (!loaded) {
     return (
-      <main className="max-w-3xl mx-auto px-4 py-12">
+      <div className="max-w-3xl py-12">
         <p className="text-gray-500">Loading profile…</p>
-      </main>
+      </div>
     );
   }
 
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
+    <div className="max-w-3xl py-4">
       <div className="flex items-center justify-between mb-6">
         <div>
           <Link
@@ -286,6 +286,6 @@ export default function ProfilePage() {
           </button>
         </div>
       </form>
-    </main>
+    </div>
   );
 }
