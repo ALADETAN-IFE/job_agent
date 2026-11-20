@@ -1,0 +1,135 @@
+{
+  "contact": {
+    "name": "Tunde Adebayo",
+    "email": "tunde.adebayo@example.com",
+    "phone": "+234 802 345 6789",
+    "location": "Lagos, Nigeria",
+    "github": "https://github.com/tundedev",
+    "linkedin": "https://linkedin.com/in/tundedev",
+    "portfolio": "https://tundedev.me"
+  },
+  "summary": "Full-stack software engineer with 6+ years of experience building scalable web applications, RESTful and GraphQL APIs, and distributed cloud services across fintech and e-commerce ecosystems in West Africa and globally.",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "NestJS",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Tailwind CSS",
+    "GraphQL",
+    "Jest",
+    "Vitest",
+    "CI/CD"
+  ],
+  "experience": [
+    {
+      "id": "exp-paystack-01",
+      "company": "Kuda Microfinance Bank",
+      "role": "Senior Full-Stack Engineer",
+      "location": "Lagos, Nigeria (Hybrid)",
+      "startDate": "Feb 2022",
+      "endDate": "Present",
+      "current": true,
+      "bullets": [
+        {
+          "id": "bullet-kuda-01",
+          "text": "Architected high-throughput payment processing microservices handling over 1.2M transactions daily with 99.99% uptime."
+        },
+        {
+          "id": "bullet-kuda-02",
+          "text": "Redesigned customer onboarding portal using Next.js and TypeScript, reducing client-side load times by 45% and increasing sign-up completion by 18%."
+        },
+        {
+          "id": "bullet-kuda-03",
+          "text": "Mentored 5 junior and mid-level engineers, implemented comprehensive unit and integration testing culture with Vitest and Cypress."
+        }
+      ]
+    },
+    {
+      "id": "exp-flutterwave-02",
+      "company": "Interswitch Group",
+      "role": "Software Engineer",
+      "location": "Lagos, Nigeria",
+      "startDate": "May 2019",
+      "endDate": "Jan 2022",
+      "current": false,
+      "bullets": [
+        {
+          "id": "bullet-interswitch-01",
+          "text": "Developed core merchant settlement APIs using Node.js, Express, and PostgreSQL, reconciling over $4M daily volume."
+        },
+        {
+          "id": "bullet-interswitch-02",
+          "text": "Implemented caching layers with Redis, dropping peak database query latency from 350ms to 28ms."
+        },
+        {
+          "id": "bullet-interswitch-03",
+          "text": "Engineered automated webhook notification dispatch system serving 3,000+ active partner merchants."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-afrimart-01",
+      "name": "AfriTrade Marketplace",
+      "description": "Cross-border B2B digital marketplace connecting agricultural producers in West Africa with international commodities buyers.",
+      "role": "Lead Architect & Developer",
+      "technologies": ["Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS"],
+      "link": "https://github.com/tundedev/afritrade",
+      "bullets": [
+        {
+          "id": "bullet-afritrade-01",
+          "text": "Designed end-to-end multi-currency escrow payment flow integrated with local banking rails."
+        },
+        {
+          "id": "bullet-afritrade-02",
+          "text": "Built real-time inventory tracking and order status messaging using WebSockets and Redis Pub/Sub."
+        }
+      ]
+    },
+    {
+      "id": "proj-devpulse-02",
+      "name": "DevPulse Africa",
+      "description": "Open-source developer analytics dashboard analyzing tech ecosystem trends, hiring metrics, and salary benchmarks in Nigeria and Ghana.",
+      "role": "Creator & Maintainer",
+      "technologies": ["React", "FastAPI", "Python", "PostgreSQL"],
+      "link": "https://github.com/tundedev/devpulse",
+      "bullets": [
+        {
+          "id": "bullet-devpulse-01",
+          "text": "Scraped and normalized data from 20,000+ public developer profiles, presenting insights via interactive charts."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-unilag-01",
+      "institution": "University of Lagos",
+      "degree": "B.Sc. Computer Science",
+      "field": "Computer Science",
+      "startDate": "2014",
+      "endDate": "2018"
+    }
+  ],
+  "preferences": {
+    "roleTypes": [
+      "Senior Full-Stack Engineer",
+      "Lead Backend Engineer",
+      "Frontend Architect"
+    ],
+    "location": "Lagos, Nigeria / Remote",
+    "remotePreference": "remote"
+  }
+}
